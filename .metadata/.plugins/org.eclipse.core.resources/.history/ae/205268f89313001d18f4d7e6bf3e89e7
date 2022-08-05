@@ -1,0 +1,17 @@
+package trimestre3;
+
+public class Trimestre {
+
+	public static void main(String[] args) {
+		
+		int x  = 10;
+		
+		for(int i = 1; i <= x; i++) {
+			
+			System.out.println("8" + " X "+ i +  "= " + (i*8));
+		}
+
+	}
+
+}
+

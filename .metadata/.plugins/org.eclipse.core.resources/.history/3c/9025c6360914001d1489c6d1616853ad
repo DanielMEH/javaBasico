@@ -1,0 +1,29 @@
+package trimestre3;
+import java.util.Scanner;
+
+public class Hospital {
+	
+	public static void main(String[]  args) {
+		
+		Scanner read = new Scanner(System.in);
+		System.out.println("Ingrese las horas que estubo en el hospital");
+		int hours = read.nextInt();
+		
+		int items = 0;
+		int calcular=0;
+		
+		do {
+			int day = 10;
+			int medicamentos = 10;
+			int tratamiento = 10;
+			calcular += day +medicamentos + tratamiento;
+			items++;
+			
+		}while(items < hours);
+		
+		System.out.println("Total a pagar: " + calcular);
+	}
+	
+	
+
+}

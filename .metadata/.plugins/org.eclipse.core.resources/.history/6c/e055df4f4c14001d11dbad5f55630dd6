@@ -1,0 +1,42 @@
+package trimestre3;
+
+import java.util.Scanner;
+
+public class Ejercicio16 {
+
+	public static void main(String[] args) {
+
+   System.out.println("Los productos disponibles son:  Arroz, Camisa, computador ");
+	Scanner read = new Scanner(System.in);
+	System.out.println("Nombre del producuto ");
+	String nombre = read.next();
+	
+	Scanner read1 = new Scanner(System.in);
+	System.out.println("La cantidad ");
+	int cantidad = read1.nextInt();
+	
+	Scanner read2 = new Scanner(System.in);
+	System.out.println("La cantidad ");
+	int pagar = read2.nextInt();
+	
+	int arroz = 3000;
+	int camisa = 30000;
+	int computador = 2000000;
+	switch(nombre) {
+	
+	case("arroz"):
+		
+		
+	break;
+	case("camisa"):
+		
+		break;
+	case("computador"):
+		
+		break;
+	}
+	
+
+	}
+
+}

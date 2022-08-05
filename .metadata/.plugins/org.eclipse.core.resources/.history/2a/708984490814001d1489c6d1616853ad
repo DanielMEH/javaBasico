@@ -1,0 +1,12 @@
+package trimestre3;
+import java.util.Scanner;
+
+public class Hospital {
+	
+	Scanner read = new Scanner(System.in);
+	System.out.println("Cuantas horas estubo hospitalizado");
+	int hours = read.nextInt();
+	
+	
+
+}

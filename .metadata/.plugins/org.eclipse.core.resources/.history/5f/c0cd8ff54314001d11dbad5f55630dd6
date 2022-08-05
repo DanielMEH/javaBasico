@@ -1,0 +1,15 @@
+package trimestre3;
+import java.util.Scanner;
+public class Ejercicio15 {
+	
+	public static void main(String[] args) {
+		
+		Scanner read = new Scanner(System.in);
+		System.out.print("Nombre completo: ");
+		System.out.print("apellido completo: ");
+		String datos = read.next();
+		
+	System.out.println("Datos ingresados");
+	System.out.println("Datos ingresados"+  datos);
+	}
+}

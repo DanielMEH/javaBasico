@@ -1,0 +1,28 @@
+package trimestre3;
+import java.util.Scanner;
+
+public class PromedioNotas {
+	
+	public static void main(String[] args) {
+				
+			int notas = 3;
+			int item = 0;
+			
+			float cantidad = 0;
+			while(item < notas) {
+				Scanner read= new Scanner(System.in);
+				System.out.println("Ingrese el precio del producto");
+				float note = read.nextFloat();
+				cantidad = cantidad + note;
+				
+				item++;
+			}
+			
+			float result = cantidad;
+			System.out.println("El promedio es de " + result);
+		
+	}
+	
+	
+
+}

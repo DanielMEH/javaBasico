@@ -1,0 +1,10 @@
+package trimestre3;
+
+public class Trimestre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package trimestre3;
+
+import java.util.Scanner;
+public class Ejercicio21 {
+
+	public static void main(String[] args) {
+		
+		Scanner read = new Scanner(System.in);
+		System.out.println("Ingrese la horas trabajadas");
+		double hours = read.nextInt();
+		double price = 2500;
+		double totalPago =  hours * price;
+		double descuento= totalPago * 0.10;
+		double sumatoriaTotal = totalPago - descuento;
+		System.out.println("Su dinero es de: " + totalPago);
+		System.out.println("Con un descuento del: " + descuento);
+		System.out.println("EL total de su dinero es de: " + sumatoriaTotal);
+	
+	}
+}

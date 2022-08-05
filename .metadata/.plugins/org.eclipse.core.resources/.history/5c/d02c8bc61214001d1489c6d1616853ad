@@ -1,0 +1,32 @@
+package trimestre3;
+
+import java.util.Scanner;
+public class TrabajoHoras {
+	
+	public static void main(String[]  args) {
+		
+		Scanner read = new Scanner(System.in);
+		System.out.println("Ingrese la horas trabajadas");
+		int hours = read.nextInt();
+		
+		int price = 3000;
+		int aumento = 0;
+		int total = 0;
+		for (int i = 0; i < hours; i++) {
+			aumento = aumento + i;
+			
+		}
+		
+		System.out.println("Cada hora vale: " + price);
+		System.out.println("Tu pago es de: " + aumento);
+		
+		if(aumento > 25000) {
+			 System.out.println("Haz ganado mucho");
+		}
+		else {
+			System.out.println("Haz ganado poco");
+		}
+		
+	}
+
+}

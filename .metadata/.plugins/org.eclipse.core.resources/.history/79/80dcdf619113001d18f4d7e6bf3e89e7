@@ -1,0 +1,12 @@
+package trimestre3;
+
+public class Trimestre {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hola mundo");
+
+	}
+
+}
+

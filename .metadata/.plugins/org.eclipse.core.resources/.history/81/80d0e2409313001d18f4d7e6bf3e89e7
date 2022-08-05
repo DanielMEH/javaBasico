@@ -1,0 +1,17 @@
+package trimestre3;
+
+public class Trimestre {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		
+		int y = 12;
+		
+		int suma = x+y;
+		System.out.println("la suma es : " + suma);
+
+	}
+
+}
+

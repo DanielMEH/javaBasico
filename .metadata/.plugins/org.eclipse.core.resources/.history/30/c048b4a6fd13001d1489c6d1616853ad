@@ -1,0 +1,17 @@
+package trimestre3;
+
+import java.util.Scanner;
+public class Porcentage {
+
+	public static void main(String[] args) {
+		
+	
+		///System.out.println("Ingrese el precio del producto");
+		//double price = leer.nextDouble();
+		
+		char descuento = 25 / 100;
+		System.out.println("porsentage: " + descuento);
+
+	}
+
+}

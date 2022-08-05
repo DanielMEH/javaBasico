@@ -1,0 +1,28 @@
+package trimestre3;
+import java.util.Scanner;
+
+public class PromedioNotas {
+	
+	public static void main(String[] args) {
+				
+			double notas = 3;
+			double item = 0;
+			
+			double cantidad = 0;
+			while(item < notas) {
+				Scanner read= new Scanner(System.in);
+				System.out.println("Ingrese la tota");
+				double note = read.nextDouble();
+				cantidad = cantidad + note;
+				
+				item++;
+			}
+			
+			int result =<int> cantidad / item;
+			System.out.println("La nota es " + result);
+		
+	}
+	
+	
+
+}

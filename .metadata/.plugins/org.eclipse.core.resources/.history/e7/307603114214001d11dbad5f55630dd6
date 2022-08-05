@@ -1,0 +1,20 @@
+package trimestre3;
+
+import java.util.Scanner;
+public class Ejercicio14 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("area de un triangulo ");
+		Scanner read = new Scanner(System.in);
+		System.out.print("Ingrese la base: ");
+		double base = read.nextDouble();
+		
+		Scanner read2 = new Scanner(System.in);
+		System.out.print("Ingrese la altura: ");
+		double altura = read.nextDouble();
+		
+		System.out.println("El area del triangulo es: "+ (base*altura/2));
+	}
+
+}

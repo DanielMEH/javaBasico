@@ -1,0 +1,15 @@
+package trimestre3;
+import java.util.Scanner;
+
+public class Hospital {
+	
+	public static void main(String[]  args) {
+		
+		Scanner read = new Scanner(System.in);
+		System.out.println("Ingrese las horas que estubo en el hospital");
+		int hours = read.nextInt();
+	}
+	
+	
+
+}
